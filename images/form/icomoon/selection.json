@@ -1,0 +1,181 @@
+{
+  "IcoMoonType": "selection",
+  "icons": [
+    {
+      "icon": {
+        "paths": [
+          "M1194.667 0h-1024c-70.4 0-127.36 57.6-127.36 128l-0.64 768c0 70.4 57.6 128 128 128h1024c70.4 0 128-57.6 128-128v-768c0-70.4-57.6-128-128-128zM1169.067 272l-452.48 282.88c-20.48 12.8-47.36 12.8-67.84 0l-452.48-282.88c-16-10.24-25.6-27.52-25.6-46.080 0-42.88 46.72-68.48 83.2-46.080l428.8 268.16 428.8-268.16c36.48-22.4 83.2 3.2 83.2 46.080 0 18.56-9.6 35.84-25.6 46.080z"
+        ],
+        "attrs": [
+          {}
+        ],
+        "width": 1365,
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "email"
+        ]
+      },
+      "attrs": [
+        {}
+      ],
+      "properties": {
+        "order": 22,
+        "id": 2,
+        "name": "email",
+        "prevSize": 32
+      },
+      "setIdx": 0,
+      "setId": 5,
+      "iconIdx": 0
+    },
+    {
+      "icon": {
+        "paths": [
+          "M512 512c141.44 0 256-114.56 256-256s-114.56-256-256-256c-141.44 0-256 114.56-256 256s114.56 256 256 256zM512 640c-170.88 0-512 85.76-512 256v64c0 35.2 28.8 64 64 64h896c35.2 0 64-28.8 64-64v-64c0-170.24-341.12-256-512-256z"
+        ],
+        "attrs": [
+          {
+            "fill": "rgb(77, 90, 229)"
+          }
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "name"
+        ]
+      },
+      "attrs": [
+        {
+          "fill": "rgb(77, 90, 229)"
+        }
+      ],
+      "properties": {
+        "order": 23,
+        "id": 1,
+        "name": "name",
+        "prevSize": 32
+      },
+      "setIdx": 0,
+      "setId": 5,
+      "iconIdx": 1
+    },
+    {
+      "icon": {
+        "paths": [
+          "M923.672 698.298l-144.793-16.531c-34.772-3.99-68.974 7.98-93.486 32.492l-104.887 104.885c-161.32-82.084-293.569-213.763-375.654-375.654l105.456-105.457c24.511-24.512 36.483-58.714 32.492-93.486l-16.531-143.65c-6.84-57.574-55.294-100.897-113.437-100.897h-98.616c-64.414 0-117.998 53.584-114.008 117.998 30.212 486.814 419.547 875.581 905.786 905.789 64.417 3.994 117.996-49.593 117.996-114.003v-98.619c0.575-57.573-42.748-106.027-100.32-112.868z"
+        ],
+        "attrs": [
+          {}
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "phone"
+        ]
+      },
+      "attrs": [
+        {}
+      ],
+      "properties": {
+        "order": 24,
+        "id": 0,
+        "name": "phone",
+        "prevSize": 32
+      },
+      "setIdx": 0,
+      "setId": 5,
+      "iconIdx": 2
+    },
+    {
+      "icon": {
+        "paths": [
+          "M704 640c-64 64-64 128-128 128s-128-64-192-128-128-128-128-192 64-64 128-128-128-256-192-256-192 192-192 192c0 128 131.5 387.5 256 512s384 256 512 256c0 0 192-128 192-192s-192-256-256-192z"
+        ],
+        "tags": [
+          "phone",
+          "telephone",
+          "contact",
+          "support",
+          "call"
+        ],
+        "defaultCode": 59714,
+        "grid": 16,
+        "attrs": []
+      },
+      "attrs": [],
+      "properties": {
+        "ligatures": "phone, telephone",
+        "name": "phone1",
+        "order": 18,
+        "id": 67,
+        "prevSize": 32
+      },
+      "setIdx": 4,
+      "setId": 1,
+      "iconIdx": 66
+    },
+    {
+      "icon": {
+        "paths": [
+          "M928 128h-832c-52.8 0-96 43.2-96 96v640c0 52.8 43.2 96 96 96h832c52.8 0 96-43.2 96-96v-640c0-52.8-43.2-96-96-96zM398.74 550.372l-270.74 210.892v-501.642l270.74 290.75zM176.38 256h671.24l-335.62 252-335.62-252zM409.288 561.698l102.712 110.302 102.71-110.302 210.554 270.302h-626.528l210.552-270.302zM625.26 550.372l270.74-290.75v501.642l-270.74-210.892z"
+        ],
+        "tags": [
+          "envelop",
+          "mail",
+          "email",
+          "contact",
+          "letter"
+        ],
+        "defaultCode": 59717,
+        "grid": 16,
+        "attrs": []
+      },
+      "attrs": [],
+      "properties": {
+        "ligatures": "envelop, mail",
+        "name": "envelop",
+        "order": 19,
+        "id": 70,
+        "prevSize": 32
+      },
+      "setIdx": 4,
+      "setId": 1,
+      "iconIdx": 69
+    }
+  ],
+  "height": 1024,
+  "preferences": {
+    "showGlyphs": true,
+    "showQuickUse": true,
+    "showQuickUse2": true,
+    "showSVGs": true,
+    "fontPref": {
+      "prefix": "icon-",
+      "metadata": {
+        "fontFamily": "icomoon"
+      },
+      "metrics": {
+        "emSize": 1024,
+        "baseline": 6.25,
+        "whitespace": 50
+      },
+      "embed": false
+    },
+    "imagePref": {
+      "prefix": "icon-",
+      "png": true,
+      "useClassSelector": true,
+      "color": 0,
+      "bgColor": 16777215,
+      "classSelector": ".icon",
+      "name": "icomoon"
+    },
+    "historySize": 50,
+    "showCodes": true,
+    "gridSize": 16
+  }
+}
