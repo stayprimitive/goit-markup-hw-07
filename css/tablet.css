@@ -1,0 +1,48 @@
+@media screen and (min-width: 768px) {
+    .container {
+        width: 768px;
+        padding-left: 108px;
+        padding-right: 108px;
+    }
+/* SECTION TWO */
+
+.sectiontwo {
+gap: 24px;
+}
+
+.sectiontwo-item {
+width: calc((100% - 24px) / 2);
+margin-bottom: 48px;
+}
+
+.sectiontwo-title{
+    text-align: left;
+}
+
+    /* SECTION FOUR */
+.sectionfour {
+    padding-bottom: 104px;
+}
+
+.sectionfour-list {
+gap: 24px;
+}
+
+.sectionfour-item {
+    width: calc((100% - 24px) / 2) ;
+}
+
+    /* SECTION FIVE */
+
+    .sectionfive {
+        padding-bottom: 16px;
+    }
+
+    .sectionfive-item {
+        width: calc((100% - 48px) / 3);
+    }
+
+    .sectionfive-list {
+        gap: 24px;
+    }
+}
