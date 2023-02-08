@@ -309,6 +309,8 @@ margin-bottom: 8px;
 
 
 .sectionthree{
+    display: none;
+    padding-top: 120px;
     padding-bottom: 120px;
 }
 
