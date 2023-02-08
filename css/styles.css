@@ -79,7 +79,7 @@ color: var(--primary-color);
 
 
 .menu-nav{
-    display: flex;
+    display: none;
     align-items: center;
 }
 
@@ -131,7 +131,7 @@ color:var(--hover-color)
 
 
 .contacts-nav{
-    display: flex;
+    display: none;
     align-items: center;
     margin-left: auto;
     align-items: center;
@@ -1016,6 +1016,113 @@ fill: #F4F4FD;
 
 
 
+.menu-open{
+    width: 32px;
+    height: 22px;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin-left: auto;
+    display: block;
+}
 
 
 
+.menu-open-icon{
+    stroke: #2E2F42;
+}
+
+.mob-menu{
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+    background-color: #FFFFFF;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.mob-menu > .mob-menu-cantainer{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: auto;
+}
+
+.mob-menu-cantainer {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.mob-modal-close {
+    width: 24px;
+    height: 24px;
+    background-color: #E7E9FC;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.mob-menu-nav{
+    margin-top: 16px;
+
+}
+
+.mob-menu-nav-link{
+    font-family: var(--primary-font);
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 40px;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: #2E2F42;
+}
+
+.mob-menu-nav-link:hover,
+.mob-menu-nav-link:focus {
+    color: var(--hover-color)
+}
+
+.mob-menu-item{
+margin-bottom: 40px;
+}
+
+.mob-contacts-nav{
+    margin-bottom: 48px;
+}
+
+.mob-phone{
+    font-family: var(--primary-font);
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 1.1;
+        text-transform: capitalize;
+        color: #4D5AE5;
+}
+
+.mob-phone-item{
+    margin-bottom: 40px;
+}
+
+.mob-email{
+    font-family: var(--primary-font);
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+
+.mob-list-icons {
+    display: flex;
+    justify-content: center;
+    gap: 56px;
+}

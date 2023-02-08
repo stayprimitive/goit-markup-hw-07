@@ -5,6 +5,28 @@
         padding-right: 15px;
     }
 
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+    
+.logo-nav {
+    margin-right: 76px;
+}
+
+.contacts-nav {
+    display: flex;
+    margin-left: 300px;
+}
+
+.contacts-nav-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #434455;
+}
+
 /* HEROOOOOOOOO */
 
 .hero-section-color {
