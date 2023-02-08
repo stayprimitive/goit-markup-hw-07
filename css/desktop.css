@@ -5,6 +5,42 @@
         padding-right: 15px;
     }
 
+/* HEROOOOOOOOO */
+
+.hero-section-color {
+    background-image: linear-gradient(rgb(46, 47, 66, 0.7), rgb(46, 47, 66, 0.7)), url(../images/hero/hero-desktop-1x.jpg);
+}
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .hero-section-color {
+        background-image: linear-gradient(rgb(46, 47, 66, 0.7), rgb(46, 47, 66, 0.7)), url(../images/hero/hero-desktop-2x.jpg);
+    }
+}
+
+.hero-button {
+
+    width: 170px;
+    height: 51px;
+    left: 635px;
+    top: 432px;
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border: transparent;
+    border-radius: 4px;
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.9;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    margin-top: 48px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
     /* SECTION TWO */
 
     .section-two-format {
@@ -46,9 +82,10 @@
         margin-bottom: 8px;
     }
 
+        /* SECTION THREE*/
+
 .sectionthree {
     display: block;
-
 }
 
     /* SECTION FOUR */

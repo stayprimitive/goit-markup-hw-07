@@ -5,6 +5,38 @@
         padding-right: 108px;
     }
 
+/* HEROOOOOOOOO */
+
+.hero-section-color {
+    background-image: linear-gradient(rgb(46, 47, 66, 0.7), rgb(46, 47, 66, 0.7)), url(../images/hero/hero-tab-1x.jpg);
+}
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .hero-section-color {
+        background-image: linear-gradient(rgb(46, 47, 66, 0.7), rgb(46, 47, 66, 0.7)), url(../images/hero/hero-tab-2x.jpg);
+    }
+}
+
+.hero-title {
+    font-family: var(--primary-font);
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    max-width: 496px;
+    margin: 0px auto;
+}
+
+.hero-format {
+    max-height: 436px;
+}
+.hero-button {
+    margin-top: 40px;
+}
     /* SECTION TWO */
 
     .sectiontwo {
