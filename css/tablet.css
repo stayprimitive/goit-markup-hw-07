@@ -87,6 +87,10 @@ padding-right: 16px;
         gap: 24px;
     }
 
+.section-two-format {
+    padding-bottom: 48px;
+}
+    
 .section-two-format > .container{
     padding-left: 0;
     padding-right: 0;
@@ -108,7 +112,7 @@ padding-right: 16px;
 
     /* SECTION FOUR */
     .sectionfour {
-        padding-bottom: 104px;
+        padding-bottom: 64px;
     }
 
     .sectionfour-list {
@@ -117,6 +121,7 @@ padding-right: 16px;
 
     .sectionfour-item {
         width: calc((100% - 24px) / 2);
+        padding-bottom: 40px;
     }
 
     /* SECTION FIVE */

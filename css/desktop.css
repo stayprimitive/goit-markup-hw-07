@@ -31,6 +31,8 @@
 
 .hero-section-color {
     background-image: linear-gradient(rgb(46, 47, 66, 0.7), rgb(46, 47, 66, 0.7)), url(../images/hero/hero-desktop-1x.jpg);
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -41,8 +43,11 @@
     }
 }
 
-.hero-button {
+.hero-section-color {
+    padding-bottom: 600px;
+}
 
+.hero-button {
     width: 170px;
     height: 51px;
     left: 635px;
@@ -61,6 +66,11 @@
     color: #FFFFFF;
     margin-top: 48px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero-title {
+padding-top: 188px;
+
 }
 
     /* SECTION TWO */
