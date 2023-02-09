@@ -158,5 +158,9 @@
     margin-left: 24px;
 
 }
+
+.modal {
+min-height: 584px;
+}
 }
 
