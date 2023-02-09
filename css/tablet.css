@@ -187,6 +187,11 @@ flex-wrap: wrap;
     padding-bottom: 98px;
 }
 
+.portfolio > .container{
+    padding-left: 91px;
+    padding-right: 91px;
+}
+
 .portfolio-items {
 gap: 24px;
 }
@@ -197,5 +202,15 @@ width: calc((100% - 24px) / 2);
 
 .portfolio-items-list:not(:last-child){
     margin-bottom: 72px;
+}
+
+.button-filter {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.portfolio-bttn {
+    padding-left: 22px;
+    padding-right: 22px;
 }
 }
