@@ -132,6 +132,51 @@ padding-right: 16px;
     .sectionfive-list {
         gap: 24px;
     }
+
+    /* FOOTER */
+
+.footer-format{
+display: flex;
+flex-wrap: wrap;
+}
+
+.footer-content {
+    width: 264px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.logo-footer {
+    justify-content: left;
+}
+
+.footer-socialmedia {
+    margin-top: 0;
+    margin-left: 24px;
+}
+        .subscribe-box {
+            display: flex;
+        }
+
+    .subscribe-input {
+    width: 264px;
+    }
+
+
+        .subscribe-button {
+            margin-left: 24px;
+            margin-right: 0;
+            align-items: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            fill: #FFFFFF;
+        }
+
+    .footer-socialmedia-title{
+    text-align: left;
+}
+
 }
 
 

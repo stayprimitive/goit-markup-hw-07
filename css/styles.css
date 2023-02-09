@@ -477,6 +477,7 @@ font-size: 18px;
 line-height: 1.17;
 display: flex;
 align-items: center;
+justify-content: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #F4F4FD;
@@ -497,15 +498,17 @@ padding-bottom: 100px;
 }
 
 .footer-content{
-width: 264px;
+width: 268px;
+margin-left: auto;
+margin-right: auto;
 }
 
 .footer-format{
-    display: flex;
+    display: block;
 }
 
 .footer-socialmedia{
-    margin-left: 120px;
+margin-top: 72px;
 }
 
 .footer-socialmedia-title{
@@ -515,6 +518,7 @@ width: 264px;
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    text-align: center;
 }
 
 .footer-list-icons{
@@ -550,11 +554,11 @@ width: 264px;
 }
 
 .footer-subscribe{
-    margin-left: 80px;
+margin-top: 72px;
 }
 
 .subscribe-input{
-    width: 264px;
+    width: 396px;
     height: 40px;
 background-color: transparent;
 border: 1px solid rgba(255, 255, 255, 0.3);
@@ -599,7 +603,8 @@ line-height: 1.5;
  outline: none;
  border: transparent;
 margin-top: 16px;
-margin-left: 24px;
+margin-left: auto;
+margin-right: auto;
 align-items: center;
 display: flex;
 align-items: center;
@@ -618,7 +623,7 @@ background-color: #404BBF;
 }
 
 .subscribe-box{
-display: flex;
+display: block;
 }
 
 .subscribe-button-title{
@@ -1121,8 +1126,25 @@ margin-bottom: 40px;
         color: #434455;
 }
 
+.mob-email{
+    font-family: var(--primary-font);
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+
 .mob-list-icons {
     display: flex;
     justify-content: center;
     gap: 56px;
+}
+
+.mob-section-text{
+    font-family: var(--primary-font);;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #E7E9FC;
 }

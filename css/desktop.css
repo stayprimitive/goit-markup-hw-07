@@ -130,4 +130,33 @@
     .sectionfive-item {
         width: calc((100% - 120px) / 6);
     }
+
+/* FOOTER */
+
+.footer-format {
+    display: flex;
 }
+
+.footer-content {
+    width: 264px;
+}
+
+.footer-socialmedia {
+    margin-left: 120px;
+}
+
+.footer-subscribe {
+    margin-top: 0;
+    margin-left: 80px;
+}
+
+.subscribe-input {
+    width: 264px;
+}
+
+.subscribe-button {
+    margin-left: 24px;
+
+}
+}
+
