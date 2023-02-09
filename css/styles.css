@@ -491,7 +491,6 @@ color: #E7E9FC;
 
 
 .footer{
-width:;
 background: #2E2F42;
 padding-top: 100px;
 padding-bottom: 100px;
@@ -566,16 +565,16 @@ border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 4px;
     margin-top: 16px;
     padding-left: 16px;
-        font-family: --primary-font font-weight: 400;
+        font-family: var(--primary-font);
+        font-weight: 400;
             font-size: 12px;
             line-height: 2;
             letter-spacing: 0.04em;
             color: rgba(255, 255, 255, 0.6);
         }
-}
 
 .subscribe-input::placeholder{
-    font-family: --primary-font
+    font-family: var(--primary-font);
         font-weight: 400;
         font-size: 12px;
         line-height: 2;
@@ -629,10 +628,6 @@ display: block;
 .subscribe-button-title{
     margin-right: 16px;
 }
-.subscribe-icon{
-
-
-}
 
 
 /*========== /FOOTER ==========*/
@@ -640,8 +635,8 @@ display: block;
 /*-----======[ PORTFOLIO PAGE ]======-----*/
 
 .portfolio{
-    padding-top: 96px;
-    padding-bottom: 120px;
+    padding-top: 0;
+    padding-bottom: 48px;
 }
 
 .portfolio-bttn{
@@ -691,10 +686,14 @@ border-radius: 4px;
 justify-content: center;
 }
 
+.portfolio-container{
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
 .portfolio-items{
     display: flex;
     flex-wrap: wrap;
-gap: 30px;
 }
 
 .portfolio-item-title{
@@ -711,9 +710,9 @@ padding-left: 16px;
 margin-top: 8px;
 }
 
-.portfolio-items-list:not(:nth-last-child(-n+3)){
+.portfolio-items-list:not(:last-child){
     margin-bottom: 48px;
-        }
+}
 
 .portfolio-items-list:hover,
 .portfolio-items-list:focus{
@@ -756,7 +755,7 @@ overflow: auto;
 }
 
 .portfolio-image{
-    width: 200px;
+width: 100%;
 }
 
 

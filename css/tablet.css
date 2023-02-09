@@ -181,4 +181,21 @@ flex-wrap: wrap;
     width: 408px;
 }
 
+/* PORTFOLIO */
+.portfolio {
+    padding-top: 0;
+    padding-bottom: 98px;
+}
 
+.portfolio-items {
+gap: 24px;
+}
+
+.portfolio-items-list {
+width: calc((100% - 24px) / 2);
+}
+
+.portfolio-items-list:not(:last-child){
+    margin-bottom: 72px;
+}
+}
